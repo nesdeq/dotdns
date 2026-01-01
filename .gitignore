@@ -1,0 +1,29 @@
+# Environment
+.env
+
+# macOS
+.DS_Store
+
+# Pihole generated data
+pihole/etc-pihole/gravity.db
+pihole/etc-pihole/gravity_old.db
+pihole/etc-pihole/gravity_backups/
+pihole/etc-pihole/pihole-FTL.db
+pihole/etc-pihole/pihole-FTL.db-shm
+pihole/etc-pihole/pihole-FTL.db-wal
+pihole/etc-pihole/listsCache/
+pihole/etc-pihole/config_backups/
+pihole/etc-pihole/migration_backup/
+pihole/etc-pihole/dhcp.leases
+pihole/etc-pihole/versions
+pihole/etc-pihole/dnsmasq.conf
+pihole/etc-pihole/logrotate
+pihole/etc-pihole/hosts/
+
+# Pihole secrets
+pihole/etc-pihole/cli_pw
+pihole/etc-pihole/tls.pem
+pihole/etc-pihole/tls.crt
+pihole/etc-pihole/tls_ca.crt
+pihole/etc-pihole/pihole.toml
+pihole/etc-pihole/adlists.list
