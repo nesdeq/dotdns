@@ -22,6 +22,7 @@ Root crontab (`sudo crontab -e`):
 ```
 @reboot /sbin/ifconfig lo0 alias 127.0.0.2
 @reboot /usr/sbin/networksetup -setdnsservers Wi-Fi 127.0.0.2
+@reboot /bin/sleep 15 && /usr/bin/dscacheutil -flushcache && /usr/bin/killall -HUP mDNSResponder
 ```
 
 Web UI: http://127.0.0.2/admin
